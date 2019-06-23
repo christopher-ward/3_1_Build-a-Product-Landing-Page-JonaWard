@@ -1,0 +1,26 @@
+1. On landing page, there needs to be a simple yet cinematic image of Jona at the top of the page.
+
+2. As I scroll down, the image will move up as well, or fade-out toward the top.
+
+3. The nav-bar should be at the top of the page always. The image from #2 will be in the middle of the nav-bar when at the very top of the screen.
+
+4. The nav-bar will have navigation links to the home page(index.html), content/demos, about, pics from sets, and contact.
+
+5. The links can be space around the #2 image at top or to the side of.
+
+6. Maybe #2 image can be above the nav-bar at the beginning, and then as the page scrolls up, the image fades out toward the top. The rest of the page will continue on while the nav-bar sticks to the top.
+
+7. All of the above can be within the header element.
+----------------------------------------------------------------------------------------------------
+
+8. In he next section, main, the first div will have a banner made of small thumbnails from various projects and set photos
+
+9. A demo reel of Jona Ward will follow the banner and...
+
+10. The video div will push the banner div "into" the header and the banner will fade behind the nav-bar.
+
+11. Or maybe just leave the banner div below the header.
+
+12. Or move banner div below video div and have describing.
+
+13. footer at bottom with, info, image, and links
