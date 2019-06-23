@@ -10,38 +10,118 @@
     <!-- FCC Format Test Script -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <header id="header">
-      <!-- Company Logo -->
-      <img id="header-img" src="#" alt="">
       <!-- Navigation Bar -->
       <nav id="nav-bar">
-        <a href="#" class="nav-link">Our Mission</a>
-        <a href="#" class="nav-link">Who Are We?</a>
-        <a href="#" class="nav-link">Future Projects/Events</a>
+        <a href="#" id="nav-home" class="nav-link">Home</a>
+        <a href="#" id="nav-proj" class="nav-link">Projects</a>
+        <div id="header-image">
+          <!-- Jona Ward Image -->
+          <img id="jona-img" src="#" alt="Image of Producer Jona Ward">
+        </div>
+        <a href="#" id="nav-about" class="nav-link">About</a>
+        <a href="#" id="nav-set" class="nav-link">From Set</a>
       </nav>
-      <!-- Main Section -->
-      <main>
-        <!-- Video -->
-        <video id="video" src="videofile.ogg" autoplay poster="posterimage.jpg">
 
-        </video>
-        <!-- Form Section -->
-        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-          <label for="email" id="email">
-            <input type="email" placeholder="email@address.com" id="email" name="email" required>
-          </label>
-          <input id="submit" type="submit" name="submit" value="Submit">
-        </form>
-
-        <h1 id="light">This is a heading</h1>
-        <h3 id="bold">This is sub-heading</h3>
-        <p id="reg">This is a paragraph with words and stuff!</p>
-
-
-      </main>
     </header>
+
+    <!-- Main Section -->
     <main>
+      <!-- Banner Mosaic -->
+      <section id="main-banner-sect">
+        <div id="main-banner" class="banner">
+
+          <!-- Left Side of Banner and Group of Divs -->
+          <div id="left-group" class="banner-group">
+            <!-- Far-Left Medium Size Image -->
+            <div class="md-img">
+              <img src="" alt="1">
+            </div>
+            <!-- Four Small Size Images in Square Group -->
+            <div class="img-group">
+              <div class="sm-img">
+                <img src="" alt="1">
+              </div>
+              <div class="sm-img">
+                <img src="" alt="2">
+              </div>
+              <div class="sm-img">
+                <img src="" alt="3">
+              </div>
+              <div class="sm-img">
+                <img src="" alt="4">
+              </div>
+            </div>
+            <!-- Inner-Left Medium Size Image -->
+            <div class="md-img">
+              <img src="" alt="2">
+            </div>
+          </div>
+
+          <!-- Center Image of Banner -->
+          <div id="center-group" class="lg-img">
+            <img src="" alt="Center">
+          </div>
+
+          <!-- Right Side of Banner and Group of Divs -->
+          <div id="right-group" class="banner-group">
+            <!-- Inner-Right Medium Size Image -->
+            <div class="md-img">
+              <img src="" alt="1">
+            </div>
+            <!-- Four Small Size Images in Square Group -->
+            <div class="img-group">
+              <div class="sm-img">
+                <img src="" alt="1">
+              </div>
+              <div class="sm-img">
+                <img src="" alt="2">
+              </div>
+              <div class="sm-img">
+                <img src="" alt="3">
+              </div>
+              <div class="sm-img">
+                <img src="" alt="4">
+              </div>
+            </div>
+            <!-- Far-Right Medium Size Image -->
+            <div class="md-img">
+              <img src="" alt="2">
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Video -->
+      <video id="video" src="videofile.ogg" autoplay poster="posterimage.jpg">
+
+      </video>
+
+      <!-- Form Section -->
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <label for="email" id="email">
+
+          <input type="email" placeholder="email@address.com" id="email" name="email" required>
+        </label>
+        <input id="submit" type="submit" name="submit" value="Submit">
+      </form>
 
     </main>
-    <footer></footer>
+
+    <footer>
+
+      <div id="copyright" class="footer-content">
+        <span>&copy</span>
+      </div>
+      <div id="footer-image" class="lg-img footer-content">
+        <img src="" alt="Image for End of Landing Page">
+      </div>
+      <div id="footer-links" class="footer-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+
+    </footer>
   </body>
 </html>

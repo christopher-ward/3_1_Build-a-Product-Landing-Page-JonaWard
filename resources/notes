@@ -9,6 +9,7 @@
 5. The links can be space around the #2 image at top or to the side of.
 
 6. Maybe #2 image can be above the nav-bar at the beginning, and then as the page scrolls up, the image fades out toward the top. The rest of the page will continue on while the nav-bar sticks to the top.
+  - have animation to change nav-bar contents from the initial two on each side, with some space for the central image, four links/buttons that are evenly spaced. 
 
 7. All of the above can be within the header element.
 ----------------------------------------------------------------------------------------------------
