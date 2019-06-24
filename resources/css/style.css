@@ -4,9 +4,31 @@
 
 /* Global Styles */
 
+
 /* Everything Else */
 
+/* Header Styles */
+nav {
+    display: flex;
+    flex-direction: row;
+}
 
+/* Banner Styles */
+#main-banner {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.banner-group {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.img-group {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
 
 @media query {
 
