@@ -11,12 +11,29 @@
 nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+
+#header-image {
+  width: 35%;
+  height: auto;
+}
+
+#jona-img {
+  width: 100%;
+}
+
+/* Main Section Styles */
 
 /* Banner Styles */
 #main-banner {
     display: grid;
     grid-template-columns: auto auto auto;
+}
+
+#center-group {
+  align-content: center;
 }
 
 .banner-group {
