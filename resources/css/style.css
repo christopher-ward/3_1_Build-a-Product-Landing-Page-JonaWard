@@ -47,6 +47,14 @@ nav {
     grid-template-rows: auto auto;
 }
 
+.sm-img {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
 @media query {
 
 }
