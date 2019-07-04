@@ -3,7 +3,9 @@
 /* ------------------------------ */
 
 /* Global Styles */
-
+body {
+  background-color: #D95E52;
+}
 
 /* Everything Else */
 
@@ -86,12 +88,16 @@ footer {
 
 #footer-group {
   display: grid;
-  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 
 #footer-image {
   width: 100%;
+}
+
+#footer-image img {
+  border-radius: 10%;
 }
 
 #footer-links {
@@ -106,7 +112,12 @@ footer {
   justify-content: center;
 }
 
+.footer-link {
+  padding: 1.5rem;
+}
+
 footer a {
+  text-decoration: none;
   color: #F2CF63;
 }
 
