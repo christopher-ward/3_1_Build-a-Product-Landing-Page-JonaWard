@@ -13,6 +13,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #F2CF63;
 }
 
 #header-image {
@@ -22,6 +23,7 @@ nav {
 
 #jona-img {
   width: 100%;
+  border-radius: 10%;
 }
 
 /* Main Section Styles */
@@ -30,27 +32,23 @@ nav {
 #main-banner-sect {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: black;
-}
-
-#center-group {
-  align-content: center;
+    background-color: #8C0436;
 }
 
 .banner-group {
-    display: grid;
-    grid-template-columns: auto auto auto;
+  align-self: center;
 }
 
-.img-group {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    background-color: black;
+#left-mosaic img {
+  border-radius: 10% 2.5% 2.5% 10%;
 }
 
-.sm-img {
-  width: 100%;
+#center-mosaic img {
+  border-radius: 10%;
+}
+
+#right-mosaic img {
+  border-radius: 2.5% 10% 10% 2.5%;
 }
 
 img {
