@@ -44,25 +44,17 @@ main {
 /* ------ Banner Section Styles ------ */
 #main-banner-sect {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
   padding: 1.875rem 0 1.875rem 0;
   background-color: #D95E52;
 }
 
-.banner-group {
+.banner {
   align-self: center;
 }
 
-#left-mosaic img {
-  border-radius: 10%;
-}
-
-#center-mosaic img {
-  border-radius: 10%;
-}
-
-#right-mosaic img {
-  border-radius: 2.5% 10% 10% 2.5%;
+#mosaic-banner img {
+  border-radius: 2.5%;
 }
 
 img {
