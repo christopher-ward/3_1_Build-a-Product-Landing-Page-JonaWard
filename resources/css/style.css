@@ -19,7 +19,8 @@ nav {
 }
 
 nav a {
-  color: #BF6545;
+  text-decoration: none;
+  color: #8C0436;
 }
 
 #header-image {
@@ -45,7 +46,7 @@ main {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 1.875rem 0 1.875rem 0;
-  background-color: #8C0436;
+  background-color: #D95E52;
 }
 
 .banner-group {
@@ -53,7 +54,7 @@ main {
 }
 
 #left-mosaic img {
-  border-radius: 10% 2.5% 2.5% 10%;
+  border-radius: 10%;
 }
 
 #center-mosaic img {
@@ -82,13 +83,13 @@ img {
   align-items: center;
 }
 
-/* --- Footer Section --- */
 
+/* --- Footer Section --- */
 footer {
   display: grid;
   grid-template-columns: auto;
   color: #F2CF63;
-  background-color: #D95E52;
+  background-color: #8C0436;
 }
 
 #footer-group {
