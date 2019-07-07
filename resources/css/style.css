@@ -5,6 +5,7 @@
 /* Global Styles */
 body {
   background-color: #D95E52;
+  padding: 0 12.5% 0 12.5%;
 }
 
 /* Everything Else */
@@ -23,6 +24,7 @@ nav {
 nav a {
   text-decoration: none;
   color: #8C0436;
+  font-size: 1.5rem;
 }
 
 #header-image {
@@ -75,6 +77,8 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1.25rem;
+  
 }
 
 
@@ -119,6 +123,7 @@ footer {
 footer a {
   text-decoration: none;
   color: #F2CF63;
+  font-size: 1.5rem;
 }
 
 @media query {
