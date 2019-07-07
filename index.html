@@ -6,10 +6,13 @@
     <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
   </head>
+
   <body>
     <!-- FCC Format Test Script -->
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+
     <header id="header">
+
       <!-- Navigation Bar -->
       <nav id="nav-bar">
         <a href="#" id="nav-home" class="nav-link">Home</a>
@@ -26,70 +29,15 @@
 
     <!-- Main Section -->
     <main>
+
       <!-- Banner Mosaic -->
-      <section id="main-banner-sect">
-        <div id="main-banner" class="banner">
+      <section id="main-banner-sect" class="banner">
 
-          <!-- Left Side of Banner and Group of Divs -->
-          <div id="left-group" class="banner-group">
-            <!-- Far-Left Medium Size Image -->
-            <div class="md-img">
-              <img src="./resources/images/posters/paramore_rose.jpg" alt="1">
-            </div>
-            <!-- Four Small Size Images in Square Group -->
-            <div class="img-group">
-              <div class="sm-img">
-                <img src="./resources/images/posters/bridesman.jpg" alt="1">
-              </div>
-              <div class="sm-img">
-                <img src="./resources/images/posters/viva_la_revolucion.jpg" alt="2">
-              </div>
-              <div class="sm-img">
-                <img src="./resources/images/posters/hold_up.jpg" alt="3">
-              </div>
-              <div class="sm-img">
-                <img src="./resources/images/posters/egg_soldier.jpg" alt="4">
-              </div>
-            </div>
-            <!-- Inner-Left Medium Size Image -->
-            <div class="md-img">
-              <img src="./resources/images/posters/atcq_space.png" alt="2">
-            </div>
-          </div>
-
-          <!-- Center Image of Banner -->
-          <div id="center-group" class="lg-img">
-            <img src="./resources/images/post_credits_panels/bridesman.jpg" alt="Center">
-          </div>
-
-          <!-- Right Side of Banner and Group of Divs -->
-          <div id="right-group" class="banner-group">
-            <!-- Inner-Right Medium Size Image -->
-            <div class="md-img">
-              <img src="./resources/images/posters/ges_blast.png" alt="1">
-            </div>
-            <!-- Four Small Size Images in Square Group -->
-            <div class="img-group">
-              <div class="sm-img">
-                <img src="./resources/images/posters/bridesman.jpg" alt="1">
-              </div>
-              <div class="sm-img">
-                <img src="./resources/images/posters/viva_la_revolucion.jpg" alt="2">
-              </div>
-              <div class="sm-img">
-                <img src="./resources/images/posters/hold_up.jpg" alt="3">
-              </div>
-              <div class="sm-img">
-                <img src="./resources/images/posters/egg_soldier.jpg" alt="4">
-              </div>
-            </div>
-            <!-- Far-Right Medium Size Image -->
-            <div class="md-img">
-              <img src="./resources/images/posters/troyesivan_lucky.jpg" alt="2">
-            </div>
-          </div>
-
+        <!-- Banner -->
+        <div id="mosaic-banner">
+            <img src="./resources/images/mosaic-banner.png" alt="left image">
         </div>
+
       </section>
 
 
@@ -103,28 +51,33 @@
       <!-- <iframe title="vimeo-player" src="https://player.vimeo.com/video/213206101" width="640" height="360" frameborder="0" allowfullscreen></iframe> -->
 
       <!-- Form Section -->
-      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-        <label for="email" id="email">
+      <section id="form-sect">
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
 
-          <input type="email" placeholder="email@address.com" id="email" name="email" required>
-        </label>
-        <input id="submit" type="submit" name="submit" value="Submit">
-      </form>
+          <span>Keep up to date with our latest endeavors</span>
+          <label for="email" id="email">
+            <input type="email" placeholder="email@address.com" id="email" name="email" required>
+          </label>
+          <input id="submit" type="submit" name="submit" value="Submit">
+        </form>
+      </section>
 
     </main>
 
+    <!-- Footer Section -->
     <footer>
-
-      <div id="copyright" class="footer-content">
-        <span>&copy</span>
-      </div>
-      <div id="footer-image" class="lg-img footer-content">
-        <img src="" alt="Image for End of Landing Page">
-      </div>
-      <div id="footer-links" class="footer-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+      <div id="footer-group">
+        <div id="copyright" class="footer-content">
+          <span>&copy Ranch Hand Entertainment Inc</span>
+        </div>
+        <div id="footer-image" class="footer-content">
+          <img src="./resources/images/red_carpet/viva-la-revolucion_castcrew_redcarpet.jpg" alt="Image for End of Landing Page">
+        </div>
+        <div id="footer-links" class="footer-content">
+          <a class="footer-link" href="#">Link 1</a>
+          <a class="footer-link" href="#">Link 2</a>
+          <a class="footer-link" href="#">Link 3</a>
+        </div>
       </div>
 
     </footer>

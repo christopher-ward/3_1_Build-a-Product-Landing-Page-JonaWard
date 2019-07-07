@@ -3,16 +3,26 @@
 /* ------------------------------ */
 
 /* Global Styles */
-
+body {
+  background-color: #D95E52;
+}
 
 /* Everything Else */
 
-/* Header Styles */
+
+/* --- Header Styles --- */
+
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background-color: #F2CF63;
+}
+
+nav a {
+  text-decoration: none;
+  color: #8C0436;
 }
 
 #header-image {
@@ -22,37 +32,93 @@ nav {
 
 #jona-img {
   width: 100%;
+  border-radius: 10%;
 }
 
-/* Main Section Styles */
 
-/* Banner Styles */
-#main-banner {
-    display: grid;
-    grid-template-columns: auto auto auto;
+/* --- Main Section Styles --- */
+main {
+  padding-top: 3.75rem;
+  background-color: #F2DC99;
 }
 
-#center-group {
-  align-content: center;
+
+/* ------ Banner Section Styles ------ */
+#main-banner-sect {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 1.875rem 0 1.875rem 0;
+  background-color: #D95E52;
 }
 
-.banner-group {
-    display: grid;
-    grid-template-columns: auto auto auto;
+.banner {
+  align-self: center;
 }
 
-.img-group {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-}
-
-.sm-img {
-  width: 100%;
+#mosaic-banner img {
+  border-radius: 2.5%;
 }
 
 img {
   width: 100%;
+}
+
+/* ------ Form Section Styles ------ */
+#form-sect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* --- Footer Section --- */
+footer {
+  display: grid;
+  grid-template-columns: auto;
+  color: #F2CF63;
+  background-color: #8C0436;
+}
+
+#footer-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+#footer-image {
+  width: 100%;
+}
+
+#footer-image img {
+  border-radius: 10%;
+}
+
+#footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link {
+  padding: 1.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #F2CF63;
 }
 
 @media query {
