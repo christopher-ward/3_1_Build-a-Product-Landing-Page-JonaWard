@@ -5,6 +5,8 @@
 /* Global Styles */
 body {
   background-color: #D95E52;
+  margin: 0 auto;
+  font-size: 16px;
 }
 
 
@@ -31,13 +33,13 @@ body {
 #nav-bar a {
   text-decoration: none;
   color: #8C0436;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 /* Jona Header Image */
 #header-image {
   margin-top: .25rem;
-  width: 25%;
+  width: 30vh;
   height: auto;
 }
 
@@ -49,18 +51,19 @@ body {
 
 /* --- Main Section Styles --- */
 main {
-  margin: 3.75rem 12.5% 0 12.5%;
+  margin: 3.75rem 9.75rem 28rem 9.75rem;
   background-color: #F2DC99;
   position: relative;
-  top: 10.5rem;
+  top: 15.5rem;
 }
 
 
 /* ------ Banner Section Styles ------ */
 #main-banner-sect {
-  display: grid;
+  display: -webkit-box;
   grid-template-columns: auto;
-  padding: 1.875rem 0 1.875rem 0;
+  padding: 1.875rem 0rem 3.875rem 0;
+  margin: 0 -5.25rem;
   background-color: #D95E52;
 }
 
@@ -108,9 +111,11 @@ footer {
   display: grid;
   grid-template-columns: auto;
   color: #F2CF63;
+  font-size: 1.5rem;
   background-color: #8C0436;
-  margin: 0 12.5% 0 12.5%;
+  margin: 0 auto;
   position: relative;
+  bottom: 0rem;
 }
 
 #footer-group {
@@ -148,8 +153,16 @@ footer a {
   font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 35rem) {
-  body {
-    background-color: purple;
+@media only screen and (max-width: 1435px) {
+  #main-banner-sect {
+    padding: 1.875rem 0rem 3.875rem 0;
+  }
+
+  #nav-bar a {
+    font-size: 2.2rem;
+  }
+
+  #header-image {
+    width: 26vh;
   }
 }
